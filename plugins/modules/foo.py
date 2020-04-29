@@ -28,6 +28,12 @@ options:
       - The URL to POST to.
     required: yes
     type: str
+  data:
+    description:
+      - Data to send in the POST request.
+    type: str
+    default: "x=42"
+    version_added: '0.2.0'
 '''
 
 EXAMPLES = r'''
@@ -63,6 +69,7 @@ from ansible.module_utils.urls import fetch_url
 def main():
     argument_spec = dict(
         url=dict(type='str', required=True),
+        data=dict(type='str', default='x=42'),
     )
     module = AnsibleModule(argument_spec)
 
@@ -70,7 +77,7 @@ def main():
         module,
         module.params['url'],
         method='POST',
-        data='x=42'
+        data=module.params['data'],
     )
 
     status = i["status"]

@@ -6,3 +6,16 @@
 
 - debug:
     var: result
+
+- name: Make test POST call
+  foo:
+    url: http://ansible.http.tests/post
+    data: jooo=1234
+  register: result
+
+- debug:
+    var: result
+
+- assert:
+    that:
+      - result.body.form.jooo == '1234'
