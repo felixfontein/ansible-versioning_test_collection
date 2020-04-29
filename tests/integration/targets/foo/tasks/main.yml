@@ -1,0 +1,8 @@
+---
+- name: Make test POST call
+  foo:
+    url: http://ansible.http.tests/post
+  register: result
+
+- debug:
+    var: result

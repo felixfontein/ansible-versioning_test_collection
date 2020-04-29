@@ -1,0 +1,15 @@
+namespace: felixfontein
+name: versioning_test_collection
+version: 0.1.0
+readme: README.md
+authors:
+  - Felix Fontein (https://github.com/felixfontein)
+description: null
+license: GPL-3.0-or-later
+license_file: COPYING
+tags: [felixfontein]
+dependencies: {}
+repository: https://github.com/felixfontein/ansible-versioning_test_collection
+documentation: https://github.com/felixfontein/ansible-versioning_test_collection/tree/master/docs/index.html
+homepage: https://github.com/felixfontein/ansible-versioning_test_collection
+issues: https://github.com/felixfontein/ansible-versioning_test_collection/issues
