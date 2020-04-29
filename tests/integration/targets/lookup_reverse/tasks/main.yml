@@ -1,0 +1,10 @@
+---
+- set_fact:
+    x: '{{ query("felixfontein.versioning_test_collection.reverse", "abc", "defg", "hij") }}'
+
+- assert:
+    that:
+      - x | length == 3
+      - x[0] == 'jih'
+      - x[1] == 'gfed'
+      - x[2] == 'cba'
