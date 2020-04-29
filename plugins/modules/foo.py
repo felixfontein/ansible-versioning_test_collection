@@ -14,7 +14,7 @@ ANSIBLE_METADATA = {'metadata_version': '1.1',
 DOCUMENTATION = r'''
 ---
 module: foo
-short_description: Makes a POST
+short_description: Make a POST
 description:
   - Makes a POST to a URL.
   - This is really only a test.
@@ -25,7 +25,7 @@ requirements:
 options:
   url:
     description:
-      - The URL to POST to
+      - The URL to POST to.
     required: yes
     type: str
 '''
@@ -44,13 +44,13 @@ EXAMPLES = r'''
 RETURN = r'''
 status:
   description:
-    - The status code of the POST request
+    - The status code of the POST request.
   returned: always
   type: int
   sample: 200
 body:
   description:
-    - The parsed JSON result
+    - The parsed JSON result.
   returned: always
   type: dict
   sample: '{"key": "value"}'
