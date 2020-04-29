@@ -1,0 +1,8 @@
+---
+- name: Make test HEAD call
+  baz:
+    url: http://ansible.http.tests/head
+  register: result
+
+- debug:
+    var: result
