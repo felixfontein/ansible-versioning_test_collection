@@ -13,6 +13,10 @@ No requirements.
 ## Included content
 
 - ``foo`` module
+- ``bar`` module
+- ``baz`` module
+- ``echo`` module
+- ``reverse`` lookup
 
 ## Using this collection
 
