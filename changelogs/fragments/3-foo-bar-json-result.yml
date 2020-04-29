@@ -1,0 +1,2 @@
+bugfixes:
+- "foo and bar - fail modules gracefully when no JSON is returned."

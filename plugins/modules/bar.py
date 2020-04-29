@@ -79,6 +79,8 @@ def main():
     except Exception as dummy:
         body = i.get('body')
 
+    if i.get('content-type') != 'application/json':
+        module.fail_json(status=status, msg='Expected JSON return value, but got type "{0}"'.format(i.get('content-type')))
     module.exit_json(
         status=status,
         body=module.from_json(body)
