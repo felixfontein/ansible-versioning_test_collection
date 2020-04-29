@@ -45,7 +45,7 @@ EXAMPLES = r'''
 RETURN = r'''
 status:
   description:
-    - The status code of the POST request.
+    - The status code of the GET request.
   returned: always
   type: int
   sample: 200
