@@ -1,0 +1,12 @@
+releases:
+  0.2.0:
+    changes:
+      minor_changes:
+      - foo - add ``data`` option.
+    fragments:
+    - 1-foo-data-option.yml
+    modules:
+    - description: Make a GET
+      name: bar
+      namespace: ''
+    release_date: '2020-04-29'
