@@ -1,2 +1,9 @@
 ancestor: 1.0.2
-releases: {}
+releases:
+  2.0.0-1:
+    plugins:
+      lookup:
+      - description: reverse magic
+        name: reverse
+        namespace: null
+    release_date: '2020-04-29'
