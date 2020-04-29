@@ -1,0 +1,2 @@
+bugfixes:
+- "foo and bar - JSON decoding could still crash the module"

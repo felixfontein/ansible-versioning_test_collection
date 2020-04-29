@@ -88,9 +88,15 @@ def main():
 
     if i.get('content-type') != 'application/json':
         module.fail_json(status=status, msg='Expected JSON return value, but got type "{0}"'.format(i.get('content-type')))
+
+    try:
+        data = module.from_json(body)
+    except Exception as e:
+        module.fail_json(status=status, msg='Error while decoding JSON: {0}'.format(e))
+
     module.exit_json(
         status=status,
-        body=module.from_json(body)
+        body=data
     )
 
 
