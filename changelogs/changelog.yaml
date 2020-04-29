@@ -17,3 +17,10 @@ releases:
     fragments:
     - 3-foo-bar-json-result.yml
     release_date: '2020-04-29'
+  0.2.2:
+    changes:
+      bugfixes:
+      - foo and bar - JSON decoding could still crash the module
+    fragments:
+    - really-fix-json-decoding.yml
+    release_date: '2020-04-29'
