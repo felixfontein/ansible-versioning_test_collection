@@ -12,7 +12,7 @@ No requirements.
 
 ## Included content
 
-Test modules and plugins.
+- ``foo`` module
 
 ## Using this collection
 
