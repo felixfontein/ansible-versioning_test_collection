@@ -15,3 +15,10 @@ releases:
       name: echo
       namespace: ''
     release_date: '2020-04-29'
+  1.0.1:
+    changes:
+      bugfixes:
+      - foo and bar - JSON decoding could still crash the module
+    fragments:
+    - really-fix-json-decoding.yml
+    release_date: '2020-04-29'
