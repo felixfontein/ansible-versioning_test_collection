@@ -24,3 +24,5 @@ releases:
     fragments:
     - really-fix-json-decoding.yml
     release_date: '2020-04-29'
+  0.2.3:
+    release_date: '2020-04-29'

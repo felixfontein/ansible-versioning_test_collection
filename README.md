@@ -20,7 +20,7 @@ See [Ansible Using collections](https://docs.ansible.com/ansible/latest/user_gui
 
 ## Release notes
 
-See [here](https://github.com/felixfontein/ansible-versioning_test_collection/tree/master/changelogs/changelog-v0.rst).
+See [here](https://github.com/felixfontein/ansible-versioning_test_collection/blob/0.2.3/changelogs/CHANGELOG-v0.rst).
 
 ## More information
 

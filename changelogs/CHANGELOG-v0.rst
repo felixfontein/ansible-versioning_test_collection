@@ -5,6 +5,9 @@ Felix Fontein's Amazing Versioning Test Collection 0 Release Notes
 .. contents:: Topics
 
 
+v0.2.3
+======
+
 v0.2.2
 ======
 
