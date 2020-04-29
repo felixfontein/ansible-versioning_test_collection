@@ -1,2 +1,17 @@
 ancestor: 0.2.1
-releases: {}
+releases:
+  1.0.0:
+    changes:
+      release_summary: 'This is the first proper release of the collection! Yay!
+
+        '
+    fragments:
+    - prelude.yml
+    modules:
+    - description: Make a HEAD
+      name: baz
+      namespace: ''
+    - description: Echo params
+      name: echo
+      namespace: ''
+    release_date: '2020-04-29'
