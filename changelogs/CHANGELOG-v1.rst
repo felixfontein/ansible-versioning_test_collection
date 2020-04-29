@@ -5,6 +5,14 @@ Felix Fontein's Amazing Versioning Test Collection 1 Release Notes
 .. contents:: Topics
 
 
+v1.0.2
+======
+
+Release Summary
+---------------
+
+Fix link to changelog.
+
 v1.0.1
 ======
 

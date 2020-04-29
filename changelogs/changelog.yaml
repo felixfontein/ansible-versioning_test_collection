@@ -22,3 +22,9 @@ releases:
     fragments:
     - really-fix-json-decoding.yml
     release_date: '2020-04-29'
+  1.0.2:
+    changes:
+      release_summary: Fix link to changelog.
+    fragments:
+    - release.yml
+    release_date: '2020-04-29'
