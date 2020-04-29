@@ -37,7 +37,7 @@ EXAMPLES = r'''
     url: https://example.com
   register: result
 - debug:
-    msg: {{ result.status }}
+    msg: '{{ result.status }}'
 '''
 
 RETURN = r'''
