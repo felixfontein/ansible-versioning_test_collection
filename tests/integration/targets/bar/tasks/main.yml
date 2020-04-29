@@ -1,0 +1,8 @@
+---
+- name: Make test GET call
+  bar:
+    url: http://ansible.http.tests/get
+  register: result
+
+- debug:
+    var: result

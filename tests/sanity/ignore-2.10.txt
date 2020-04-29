@@ -1,1 +1,2 @@
 plugins/modules/foo.py pylint:blacklisted-name
+plugins/modules/bar.py pylint:blacklisted-name
