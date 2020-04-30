@@ -1,1 +1,0 @@
-release_summary: We're happy to release 2.0.0 with a new plugin!

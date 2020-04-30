@@ -1,5 +1,14 @@
 ancestor: 1.0.2
 releases:
+  2.0.0:
+    changes:
+      bugfixes:
+      - reverse lookup - fix bug in error message.
+      release_summary: We're happy to release 2.0.0 with a new plugin!
+    fragments:
+    - 2.0.0.rst
+    - fix-doc.yml
+    release_date: '2020-04-30'
   2.0.0-1:
     plugins:
       lookup:
