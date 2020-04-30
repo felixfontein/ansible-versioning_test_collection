@@ -17,6 +17,7 @@ No requirements.
 - ``baz`` module
 - ``echo`` module
 - ``reverse`` lookup
+- ``bob`` lookup
 
 ## Using this collection
 

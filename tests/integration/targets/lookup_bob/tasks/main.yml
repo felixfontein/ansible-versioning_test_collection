@@ -1,0 +1,10 @@
+---
+- set_fact:
+    x: '{{ query("felixfontein.versioning_test_collection.bob", "John", "Eve") }}'
+
+- assert:
+    that:
+      - x | length == 3
+      - x[0] == 'John'
+      - x[1] == 'Eve'
+      - x[2] == 'Bob'
