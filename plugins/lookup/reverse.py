@@ -36,6 +36,6 @@ class LookupModule(LookupBase):
 
     def run(self, terms, variables, **kwargs):
         if not isinstance(terms, list):
-            raise AnsibleError("with_flattened expects a list")
+            raise AnsibleError("reverse expects a list")
 
         return [str(f)[::-1] for f in reversed(terms)]
