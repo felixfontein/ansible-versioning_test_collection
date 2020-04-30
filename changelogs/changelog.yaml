@@ -16,3 +16,10 @@ releases:
         name: reverse
         namespace: null
     release_date: '2020-04-29'
+  2.1.0-beta:
+    plugins:
+      lookup:
+      - description: Bob was there, too
+        name: bob
+        namespace: null
+    release_date: '2020-04-30'
