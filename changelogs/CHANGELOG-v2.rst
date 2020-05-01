@@ -5,6 +5,14 @@ Felix Fontein's Amazing Versioning Test Collection 2 Release Notes
 .. contents:: Topics
 
 
+v2.1.0-beta-2
+=============
+
+Bugfixes
+--------
+
+- bob lookup - forgot to check whether ``Bob`` was already there.
+
 v2.1.0-beta
 ===========
 
