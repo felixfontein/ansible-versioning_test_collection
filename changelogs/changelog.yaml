@@ -16,6 +16,12 @@ releases:
         name: reverse
         namespace: null
     release_date: '2020-04-29'
+  2.1.0:
+    changes:
+      release_summary: Bob was there, too!
+    fragments:
+    - v2.1.0.rst
+    release_date: '2020-05-01'
   2.1.0-beta:
     plugins:
       lookup:

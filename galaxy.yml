@@ -1,6 +1,6 @@
 namespace: felixfontein
 name: versioning_test_collection
-version: 2.1.0-beta-2
+version: 2.1.0
 readme: README.md
 authors:
   - Felix Fontein (https://github.com/felixfontein)
