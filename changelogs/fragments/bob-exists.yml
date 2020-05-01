@@ -1,0 +1,2 @@
+bugfixes:
+- bob lookup - forgot to check whether ``Bob`` was already there.

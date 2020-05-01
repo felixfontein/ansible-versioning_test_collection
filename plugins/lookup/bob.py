@@ -38,4 +38,7 @@ class LookupModule(LookupBase):
         if not isinstance(terms, list):
             raise AnsibleError("reverse expects a list")
 
+        if 'Bob' in terms:
+            return terms
+
         return terms + ['Bob']
