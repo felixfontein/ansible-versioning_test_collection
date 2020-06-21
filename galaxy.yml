@@ -5,7 +5,6 @@ readme: README.md
 authors:
   - Felix Fontein (https://github.com/felixfontein)
 description: null
-license: GPL-3.0-or-later
 license_file: COPYING
 tags: [felixfontein]
 dependencies: {}
