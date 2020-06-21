@@ -9,6 +9,11 @@ This changelog describes changes after version 1.0.2.
 v2.2.0
 ======
 
+Release Summary
+---------------
+
+Testing long changelog fragments. Nothing else in this release. Ignore the fragment contents!
+
 Minor Changes
 -------------
 
@@ -68,6 +73,11 @@ Minor Changes
   Each single dot (``.``) represents one level of the tree (equivalent to ``../`` in filesystem relative links).
 
   .. seealso:: `The Python Relative Import Docs <https://www.python.org/dev/peps/pep-0328/#guido-s-decision>`_ go into more detail of how to write relative imports.
+
+Bugfixes
+--------
+
+- Renamed ``master`` git branch to ``main``.
 
 v2.1.0
 ======
