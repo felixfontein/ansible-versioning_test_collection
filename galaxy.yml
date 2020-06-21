@@ -10,7 +10,6 @@ license_file: COPYING
 tags: [felixfontein]
 dependencies: {}
 repository: https://github.com/felixfontein/ansible-versioning_test_collection
-documentation: https://github.com/felixfontein/ansible-versioning_test_collection/tree/master/docs/index.html
 homepage: https://github.com/felixfontein/ansible-versioning_test_collection
 issues: https://github.com/felixfontein/ansible-versioning_test_collection/issues
 build_ignore:
