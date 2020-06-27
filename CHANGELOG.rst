@@ -6,6 +6,14 @@ Felix Fontein's Amazing Versioning Test Collection 2 Release Notes
 
 This changelog describes changes after version 1.0.2.
 
+v2.3.0-pre
+==========
+
+Release Summary
+---------------
+
+Just testing with pre-releases.
+
 v2.2.0
 ======
 

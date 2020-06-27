@@ -96,3 +96,9 @@ releases:
     - master-main.yml
     - something-long.yml
     release_date: '2020-05-27'
+  2.3.0-pre:
+    changes:
+      release_summary: Just testing with pre-releases.
+    fragments:
+    - 2.3.0-pre.yml
+    release_date: '2020-06-27'
